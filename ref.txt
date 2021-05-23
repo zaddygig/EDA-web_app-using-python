@@ -1,0 +1,9 @@
+for pip upgrade error
+try:
+python -m pip install -U --force-reinstall pip
+inside your venv
+
+
+pycharm venv packages not importing
+
+ctrl-alt-s (to go into preferencess), then Project Interpreter/settings (gear icon), show all, then remove all the venv environments that aren't your current project (use the - sign). Restart, and you should be good to go.
